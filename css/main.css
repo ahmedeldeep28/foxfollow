@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&family=Quicksand:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-dark {
+    background: #13151e !important;
+
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.img {
+    width: 100%
+}
+
+.box-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-center-x {
+    display: flex;
+    justify-content: center;
+}
+.box-center-y {
+    display: flex;
+    align-items: center;
+}
+
+aside {
+    width: 250px;
+    height: 100vh;
+    background-color: #151722;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+main {
+    transition: margin-left .5s;
+    margin-left: 250px;
+}
+
+.login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../image/x8e2teldxfwxfuof_kzhick.png"), linear-gradient(to right, #0f1017, #0f1017);
+}
+
+.login-box {
+    background: #151722;
+    border-radius: 25px;
+    padding: 40px;
+    color: #fff;
+    border-bottom: 7px solid #f9a40f;
+}
+
+.header {
+    background-image: linear-gradient(to right, #0f1017, #0f1017);
+    min-height: 100vh;
+}
+
+.input-box {
+    position: relative;
+    /* background: #23252e; */
+    border-radius: 7px;
+    min-height: 63px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.input-box .input-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 15px;
+    position: absolute;
+    /* top: 10px; */
+    left: 10px;
+    z-index: 5;
+    color: #0f1017;
+    background: #fcd703;
+    font-weight: 900;
+}
+.input-box  input {
+    background: #0f1017;
+    outline: none;
+    border: none;
+    line-height: 100% !important;
+    padding: 20px 20px;
+    width: 100%;
+    color: #fff;
+    height: auto;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border-radius: 5px;
+    padding-left: 66px;
+}
+.input-box  input:hover {
+    background: #0f1017;
+
+}
