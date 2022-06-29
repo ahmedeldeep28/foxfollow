@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.mypanel.link/css/font-awesome/css/all.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
@@ -13,93 +14,51 @@
 
 <body>
 
-    <!-- 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="/">{finswet</a>
-            <button class="navbar-toggler shadow-none fs-1 text-white border-0" type="button"
-                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars"></i>
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto   mb-md-2 mb-lg-0">
-                    <li class="nav-item fs-5 text-capitalize">
-                        <a class="nav-link active" href="./">Home</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item fs-5 text-capitalize">
-                        <a class="nav-link" href="./about.html">About us</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
                     </li>
-
-                    <li class="nav-item fs-5 text-capitalize">
-                        <a class="nav-link" href="./work.html">portfolio</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
                     </li>
-                    <li class="nav-item fs-5 text-capitalize">
-                        <a class="nav-link" href="./blog.html">Blog</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
                     </li>
-                    <li class="nav-item fs-5 text-capitalize">
-                        <a class="nav-link" href="./blog.html">contact us</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            arabic
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
                     </li>
                 </ul>
-                <button class="btn btn-dark btn-sm">dark</button>
+                <button class="btn btn-primary me-2">login</button>
+                <button class="btn btn-primary">login</button>
             </div>
         </div>
-    </nav> -->
-
-    <!-- <section class="login">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-md-6 d-none d-md-block">
-                    <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_kyxinydn.json"
-                        background="transparent" speed="2" style="width: 600px; height: 600px;" loop="" autoplay="">
-                    </lottie-player>
-                </div>
-                <div class="col-md-5">
-                    <div class="login-box">
-                        <div class="head d-flex align-items-center mb-4">
-                            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_ff305byc.json"
-                                background="transparent" speed="1" style="width: 60px; height: 60px;" loop=""
-                                autoplay="">
-                            </lottie-player>
-                            <div class="text ms-2">
-                                <h5 class="mb-1">Welcome To foxfollow</h5>
-                                <p class="small">Enter Your Username And Password.</p>
-                            </div>
-                        </div>
-                        <form action="">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                <input type="email" class="form-control bg-transparent">
-                            </div>
-                            <div class="input-group">
-                                <span class="input-group-text" id="addon-wrapping">@</span>
-                                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-                                    aria-describedby="addon-wrapping">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">password</label>
-                                <input type="password" class="form-control bg-transparent">
-                            </div>
-                            <div class="d-flex justify-content-between my-4">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
-                                        checked>
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Remember Me
-                                    </label>
-                                </div>
-                                <a class="text-light small" href="">Forget Password?</a>
-                            </div>
-                            <button class="btn btn-danger btn-lg w-100">sign in</button>
-                            <p class="text-center mt-3">
-                                <a class="text-light small" href="">Don't Have An Account? Sign up</a>
-                            </p>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+    </nav>
 
 
     <section class="header vh-auto box-center py-5">
@@ -113,14 +72,14 @@
                     <button class="btn btn-primary">sign up</button>
                 </div>
                 <div class="col-md-6 d-none d-md-block">
-                    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_cctgy7u6.json"
-                        background="transparent" speed="2" style="width: 600px; height: 600px;" loop="" autoplay="">
+                    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_cctgy7u6.json"
+                        background="transparent" speed="1" style="width: 100%; height: 100%;" loop autoplay>
                     </lottie-player>
                 </div>
             </div>
             <div class="row justify-content-center mt-4">
                 <div class="col-md-11">
-                    <div class="card bg-dark p-4 p-sm-5 ">
+                    <div class="card rounded-5 bg-dark p-4 p-sm-5 ">
                         <form action="">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-5">
@@ -140,7 +99,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-2 box-center-y">
-                                    <button class="btn btn-primary w-100  btn-lg">sign in</button>
+                                    <button class="btn btn-primary w-100 h-100  btn-lg">sign in</button>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-between mt-4">
@@ -151,7 +110,7 @@
                                         Remember Me
                                     </label>
                                 </div>
-                                <a class="text-light small" href="">Forget Password?</a>
+                                <a class="text-primary small" href="">Forget Password?</a>
                             </div>
                             <p class="text-center mb-0 mt-3">
                                 <a class="text-light small" href="">Don't Have An Account? Sign up</a>
@@ -167,8 +126,8 @@
         <div class="container">
             <div class="row gy-3 mb-4 align-items-center">
                 <div class="col-md-6">
-                    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_7fy2yzzs.json"
-                        background="transparent" speed="2" loop="" autoplay="">
+                    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_cctgy7u6.json"
+                        background="transparent" speed="1" style="width: 100%; height: 100%;" loop autoplay>
                     </lottie-player>
                 </div>
                 <div class="col-md-6">
@@ -196,7 +155,8 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_toofqbxc.json" background="transparent" speed="2" style="width: 550px; height: 550px;" loop="" autoplay="">
+                    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_cctgy7u6.json"
+                        background="transparent" speed="1" style="width: 100%; height: 100%;" loop autoplay>
                     </lottie-player>
                 </div>
             </div>
@@ -204,8 +164,9 @@
     </section>
 
 
-
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="js/jqoury.min.js"></script>
+    <script src="js/Popper.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/app.js"></script>
 </body>
