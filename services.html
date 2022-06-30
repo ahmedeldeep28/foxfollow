@@ -16,13 +16,12 @@
 
 
 
-
-
   <aside class="sidebar" id="sidebar">
     <div class="logo p-4">
       <img class="img d-none d-xxl-block " src="https://cdn.mypanel.link/si46tw/u6l45t8880gg2e8z.png" alt="">
       <button class="btn btn-dark w-100 d-block d-md-none" id="close_sidebar"><i class="fas fa-times"></i></button>
-      <button class="btn btn-dark w-100 d-none d-md-block d-xxl-none" id="show_text_btn"><i class="fas fa-bars"></i></button>
+      <button class="btn btn-dark w-100 d-none d-md-block d-xxl-none" id="show_text_btn"><i
+          class="fas fa-bars"></i></button>
     </div>
 
     <div class="sidebar-body">
@@ -30,7 +29,7 @@
         <img class="img"
           src="https://res.cloudinary.com/smmxboost/image/upload/v1655034042/flat-boy-with-vintage-glasses-avatar-vector-illustration_vvbpqp_sbvxja-_1_oy5t4a2_dwhhww000_zjxco7.png"
           alt="">
-        <a class="text-primary" href="">edite Account?</a>
+        <a class="text-primary" href="./profile.html">edite Account?</a>
         <h4 class="text-white">ahmed eldeep</h4>
       </div>
       <ul class="menu py-3">
@@ -124,14 +123,111 @@
               </ul>
             </li>
           </ul>
-          <button class="btn btn-primary me-2">login</button>
+          <button class="btn btn-primary btn-sm me-2">login</button>
           <button class="btn btn-primary">login</button>
         </div>
       </div>
     </nav>
 
+
     <section class="services py-5">
-      <div class="container-fluid">
+      <div class="container-fluid px-5">
+
+        <div class="steps card rounded-5 bg-dark p-3 mb-4">
+          <div class="row g-3">
+            <div class="col-xl-4 col-md-6 d-flex">
+              <div class="photo">
+                <img width="50px"
+                  src="https://res.cloudinary.com/smmxboost/image/upload/v1655323577/gentleman_ltwkdp.svg" alt="">
+              </div>
+              <div class="ms-3 text-white">
+                <h5>STEP 1</h5>
+                <h5>Track Your Order</h5>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 d-flex">
+              <div class="photo">
+                <img width="50px"
+                  src="	https://res.cloudinary.com/smmxboost/image/upload/v1655323661/meeting_r8ejtb.svg" alt="">
+              </div>
+              <div class="ms-3 text-white">
+                <h5>STEP 2</h5>
+                <h5>Wait For Results</h5>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 d-flex">
+              <div class="photo">
+                <img width="50px"
+                  src="https://res.cloudinary.com/smmxboost/image/upload/v1655323577/contract_prutt7.svg" alt="">
+              </div>
+              <div class="ms-3 text-white">
+                <h5>STEP 3</h5>
+                <h5>Thanks For Deal</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-3 mb-4">
+          <form class="mb-4">
+            <div class="input-box">
+              <div class="input-icon">
+                <i class="far fa-search"></i>
+              </div>
+              <input type="text" placeholder="search">
+            </div>
+          </form>
+          <div class="order-filter px-2">
+            <a href="#" class="btn btn-dark text-3 me-2 mb-2">all</a>
+            <a href="#" class="btn btn-dark text-3 me-2 mb-2">
+              <i class="far fa-ambulance"></i>
+              <span class="ms-2">Pending</span>
+            </a>
+            <a href="#" class="btn btn-dark text-3 me-2 mb-2">
+              <i class="fas fa-spinner"></i>
+              <span class="ms-2">In progress</span>
+            </a>
+            <a href="#" class="btn btn-dark text-3 me-2 mb-2">
+              <i class="far fa-check-circle"></i>
+              <span class="ms-2">Completed</span>
+            </a>
+            <a href="#" class="btn btn-dark text-3 me-2 mb-2">
+              <i class="fas fa-project-diagram"></i>
+              <span class="ms-2">Partial</span>
+            </a>
+            <a href="#" class="btn btn-dark text-3 me-2 mb-2">
+              <i class="far fa-times-circle"></i>
+              <span class="ms-2">Canceled</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="service-filter card p-3 mb-4">
+          <div class="row g-3">
+            <div class="col-md-3">
+              <div class="dropdown">
+                <button class="btn btn-primary btn-lg fw-bold dropdown-toggle" type="button" id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  service filter
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <form action="">
+                <div class="input-box">
+                  <div class="input-icon">
+                    <i class="far fa-search"></i>
+                  </div>
+                  <input type="text" placeholder="search">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
 
         <div class="head d-none d-lg-flex card bg-secondary mb-3 px-3 py-2">
           <div class="services-row">
@@ -145,9 +241,124 @@
           </div>
         </div>
 
-        <div class="service-card card bg-dark mb-2 px-3 py-2 ">
+        <div class="services-title p-3 bg-primary rounded-4 mb-2" data-category="🍋 Easy Peasy Lemon Squeezy">
+          <span>🍋 Easy Peasy Lemon Squeezy</span>
+        </div>
+        <div class="service-card card rounded-4 mb-2 px-3 py-2 ">
           <div class="services-row">
-            <div class="service-id mb-2 bg-primary rounded-5 p-3 text-dark">
+            <div class="service-id bg-primary rounded-5 p-3 text-dark">
+              4927
+            </div>
+            <div class="service-name mb-2 mb-lg-0">
+              <p class="service-title mb-1">name</p>
+              TikTok Followers | Real Quality | Speed 1K | No Refill
+            </div>
+            <div class="service-per mb-2 mb-lg-0">
+              <p class="service-title mb-1">per</p>
+              $0.299
+            </div>
+            <div class="service-min mb-2 mb-lg-0">
+              <p class="service-title mb-1">min</p>
+              10
+            </div>
+            <div class="service-max mb-2 mb-lg-0">
+              <p class="service-title mb-1">max</p>
+              1000
+            </div>
+            <div class="service-avg mb-2 mb-lg-0">
+              <p class="service-title mb-1">max</p>
+              Not enough data
+            </div>
+            <div class="service-des">
+              <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-dark btn-sm">
+                <i class="fa fa-bookmark"></i></button>
+            </div>
+          </div>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <img width="150px" src="https://cdn.mypanel.link/si46tw/u6l45t8880gg2e8z.png" alt="">
+                  <button class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close"><i
+                      class="fas fa-times"></i></button>
+                </div>
+                <div class="modal-body p-4">
+                  <div class="d-inline-block mb-2 bg-primary rounded-5 p-3 text-dark">
+                    4927
+                  </div>
+                  <h6 class="text-primary my-3">YouTube Views | External Sources | Speed 10K | 30 Days Refill </h6>
+                  <div class="service-des">
+                    <p class="text-light text-3">
+                      ◉ 𝗦𝗧𝗔𝗥𝗧 : Instant / 24H
+                      <br>
+                      ◉ 𝗦𝗣𝗘𝗘𝗗 : +10K
+                      <br>
+                      ◉ 𝗤𝗨𝗔𝗟𝗜𝗧𝗬 : Real
+                      <br>
+                      ◉ 𝗗𝗥𝗢𝗣 𝗥𝗔𝗧𝗜𝗢 : 0%
+                      <br>
+                      ◉ 𝗚𝗨𝗔𝗥𝗔𝗡𝗧𝗘𝗘 : Yes
+                      <br>
+                      ◉ 𝗥𝗘𝗙𝗜𝗟𝗟 𝗕𝗨𝗧𝗧𝗢𝗡 : Yes
+                      <br>
+                      ◉ 𝗖𝗔𝗡𝗖𝗘𝗟 𝗕𝗨𝗧𝗧𝗢𝗡 : No
+                      <br>
+                      𝗗𝗘𝗧𝗔𝗜𝗟𝗦 :
+                      ◍ YOU SHOULD PUT VIDEO LINK NOT ACCOUNT LINK.
+                      <br>
+                      ◍ PLEASE MAKE SURE YOUR ACCOUNT IS NOT PRIVATE.
+                      <br>
+                      ◍ DON'T PLACE MORE 1 ORDER FOR LINK AT THE SAME TIME.
+                      <br>
+                      ⊛ 𝐒𝐄𝐑𝐕𝐄𝐑 𝐎𝐖𝐍 𝐅𝐎𝐑 𝐒𝐌𝐌𝐗𝐁𝐎𝐎𝐒𝐓
+                      <br>
+                      ⊛ 𝐕𝐈𝐏 𝐂𝐀𝐍𝐓 𝐀𝐒𝐊 𝐅𝐎𝐑 𝐂𝐔𝐒𝐓𝐎𝐌 𝐑𝐀𝐓𝐄
+                    </p>
+                  </div>
+
+                  <div class="service-details bg-secondary rounded-5 mt-4 p-4">
+                    <div class="d-flex justify-content-between mb-3">
+
+                      <div class="text-center">
+                        <div class="label-icon m-auto">
+                          <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <div class="mt-1 text-white">
+                          <p class="text-3 mb-0">Rate per 1000</p>
+                          <p class="mb-0">$10</p>
+                        </div>
+                      </div>
+                      <div class="text-center">
+                        <div class="label-icon m-auto">
+                          <i class="fas fa-arrow-alt-to-bottom"></i>
+                        </div>
+                        <div class="mt-1 text-white">
+                          <p class="text-3 mb-0">min</p>
+                          <p class="word-break">350</p>
+                        </div>
+                      </div>
+                      <div class="text-center">
+                        <div class="label-icon">
+                          <i class="fas fa-arrow-alt-to-top"></i>
+                        </div>
+                        <div class="mt-1 text-white">
+                          <p class="text-3 mb-0">max</p>
+                          <p class="mb-0">15000</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a href="" class="btn btn-primary fw-bold w-100 btn-lg">buy service</a>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="service-card card rounded-4 mb-2 px-3 py-2 ">
+          <div class="services-row">
+            <div class="service-id bg-primary rounded-5 p-3 text-dark">
               4927
             </div>
             <div class="service-name mb-2 mb-lg-0">
@@ -177,9 +388,9 @@
             </div>
           </div>
         </div>
-        <div class="service-card card bg-dark mb-2 px-3 py-2 ">
+        <div class="service-card card rounded-4 mb-2 px-3 py-2 ">
           <div class="services-row">
-            <div class="service-id mb-2 bg-primary rounded-5 p-3 text-dark">
+            <div class="service-id bg-primary rounded-5 p-3 text-dark">
               4927
             </div>
             <div class="service-name mb-2 mb-lg-0">
@@ -209,39 +420,7 @@
             </div>
           </div>
         </div>
-        <div class="service-card card bg-dark mb-2 px-3 py-2 ">
-          <div class="services-row">
-            <div class="service-id mb-2 bg-primary rounded-5 p-3 text-dark">
-              4927
-            </div>
-            <div class="service-name mb-2 mb-lg-0">
-              <p class="service-title mb-1">name</p>
-              TikTok Followers | Real Quality | Speed 1K | No Refill
-            </div>
-            <div class="service-per mb-2 mb-lg-0">
-              <p class="service-title mb-1">per</p>
-              $0.299
-            </div>
-            <div class="service-min mb-2 mb-lg-0">
-              <p class="service-title mb-1">min</p>
-              10
-            </div>
-            <div class="service-max mb-2 mb-lg-0">
-              <p class="service-title mb-1">max</p>
-              1000
-            </div>
-            <div class="service-avg mb-2 mb-lg-0">
-              <p class="service-title mb-1">max</p>
-              Not enough data
-            </div>
-
-            <div class="service-des">
-              <button data-bs-toggle="modal" data-bs-target="#sDet4927" class="btn btn-dark btn-sm"><i
-                  class="fa fa-bookmark"></i></button>
-            </div>
-          </div>
-        </div>
-        
+        <p>lo</p>
       </div>
     </section>
   </main>
